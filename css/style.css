@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+  }
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+  }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+body { background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+     }
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    position: relative;
+}
+.border-top {
+    border-top: 1px solid #323232;
+}
+.margin-non {
+    text-align: center;
+}
+.ihover-img {
+    position: fixed;
+    z-index: 1;
+}
+.text-link-tel {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #fe6637;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif; 
+    color: #fe6637;
+    transition: .2s ease-in-out;
+  }
+  .text-link-tel:before {
+    content: "";
+    background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.5));
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: -8px;
+    left: -75px;
+    transform: skewX(-45deg);
+  }
+  .text-link-tel:hover {
+    background: #fe6637;
+    color: #fff;
+  }
+  .text-link-tel:hover:before {
+    left: 150px;
+    transition: .5s ease-in-out;
+  }
+  .button-olx-link {
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        padding: 15px 20px;
+        border-radius: 45px;
+        margin: 10px 20px;
+        font-size: 8px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #524f4e;
+        background: white;
+        box-shadow: 0 8px 15px rgba(0,0,0,.1);
+        transition: .3s;
+        cursor: pointer;
+      }
+      .button-olx-link:hover,
+      .button-olx-link:focus {
+        background: #2EE59D;
+        box-shadow: 0 15px 20px rgba(46,229,157,.4);
+        color: white;
+        transform: translateY(-7px);
+      }
+      .padding-top {
+          padding-top: 10rem;
+      }
+      .card-link {
+          text-align: center;
+      }
+      .button-contact-end {
+        text-decoration: none;
+        outline: none;
+        display: inline-block;
+        padding: 20px 30px;
+        border-radius: 45px;
+        margin-left: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        font-weight: 600;
+        color: #524f4e;
+        background: #fff;
+        box-shadow: 0 8px 15px rgba(0,0,0,.1);
+        transition: .3s;
+      }
+      .button-contact-end:hover {
+        background: #2EE59D;
+        box-shadow: 0 15px 20px rgba(46,229,157,.4);
+        color: white;
+        transform: translateY(-7px);
+      }
